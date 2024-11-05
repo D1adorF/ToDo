@@ -1,0 +1,131 @@
+/*Обнуление*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+:root {
+    background: #15101C;
+    padding: 25px;
+}
+.none {
+    display: none !important;
+}
+
+.todo-tasks {
+    width: 100%;
+    max-width: 600px;
+    padding: 30px 40px 70px;
+    background-color: #1D1825;
+    border-radius: 1rem;
+    margin: 100px auto 30px;
+    color: #fff;
+}
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0;
+    font-size: 25px;
+    padding-left: 10px;
+}
+.form-input {
+    flex: 1;
+    height: 40px;
+    border: #9e78cf solid 2px;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    border-radius: 1em;
+    font-weight: 15;
+    color: #777777;
+}
+.add-button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: #9e78cf;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 1em;
+}
+
+.task-button {
+    width: 35px;
+    height: 35px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.task-button img {
+    pointer-events: none;
+}
+
+.tasks-list-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    font-size: 15px;
+    padding: 20px;
+    background-color: #15101C;
+    border-radius: 1em;
+    color: #9e78cf;
+}
+
+.list-btn {
+    display: flex;
+}
+.empty-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.task-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.task-title-done {
+    text-decoration: line-through;
+    color: #78CFB0;
+}
+
+
+
+/*.input__checkbox {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    position: absolute;*/
+/*    opacity: 0;*/
+/*}*/
+/*.label__span {*/
+/*    display: block;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    position: absolute;*/
+/*    border: 3px solid #9e78cf;*/
+/*    border-radius: 20%;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.label__span::after {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    left: 25px;*/
+/*    bottom: 10px;*/
+/*    width: 0;*/
+/*    height: 0;*/
+/*    border: solid #9e78cf;*/
+/*    border-width: 0 6px 6px 0;*/
+/*    transform: rotate(45deg);*/
+/*    opacity: 0;*/
+/*    transition: width 0.5s, height 0.5s, opacity 0.5s;*/
+/*}*/
+/*.input__checkbox:checked ~ .label__span::after{*/
+/*    width: 20px;*/
+/*    height: 40px;*/
+/*    opacity: 1;*/
+/*}*/
